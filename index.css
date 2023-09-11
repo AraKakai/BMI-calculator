@@ -1,12 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background: linear-gradient(black, violet, orange);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    animation: gradientAnimation 5s linear infinite;
 }
 
 .container {
